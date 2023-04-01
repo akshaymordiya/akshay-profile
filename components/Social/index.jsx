@@ -19,7 +19,7 @@ const Social = ({
       "instagram": InstagramIcon,
       "facebook": FacebookRoundedIcon
     }
-  }, [links]);
+  }, []);
 
   return (
     <div className={styles.social_icons}>

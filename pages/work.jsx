@@ -73,10 +73,10 @@ const Work = () => {
         title='Portfolio'
       >
         <div className={styles.work_collection}>
-          {(data.portfolios || []).map(work =>(
+          {(data.portfolios || []).map((work, index) =>(
             <div key={work.key} className={styles.work_collection_box} onClick={() => handleModalOpen(work)}>
-              <Image src={`/${work.image}`} className={styles.work_collection_box_image} width="400" height="300"></Image>
-              <h3 className={styles.work_collection_box_title} >{work.title}</h3>
+              <Image src={`/${work.image}`} className={styles.work_collection_box_image} width="400" height="300" alt={`portfolio_${index + 1}`}></Image>
+              <h3 className={styles.work_collection_box_title}>{work.title}</h3>
               <span className={styles.work_collection_box_excert}>{work.excert}</span>
             </div>
           ))}
