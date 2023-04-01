@@ -1,0 +1,44 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:0.8rem;
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-card);
+    transition: 0.3s all ease-in-out;
+
+    &:hover {
+      color: #fff !important;
+      background: linear-gradient(180deg, #0094D1 0%, rgba(0, 74, 145, 0.99) 100%);
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+
+    span {
+      font-size: 14px;
+      font-weight: 100;
+      color: #A6A6A6;
+    }
+
+    .text {
+      font-size: 16px;
+    }
+
+    a {
+      cursor: pointer;
+      transition: 0.3s all ease-in-out;
+
+      &:hover {
+        color: #0094D1;
+      }
+    }
+  }
+}

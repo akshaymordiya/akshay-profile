@@ -1,0 +1,56 @@
+.page_title {
+  padding: 1.5rem;
+  font-size: 20px;
+
+  @media (width <= 537px) {
+    padding: 0.8rem;
+  }
+  
+  .title {
+    font-family: Roboto Slab,serif !important;
+    letter-spacing: 1.3px;
+    display: inline-block;
+    position: relative;
+
+    @media (width <= 537px) {
+      margin-bottom: 1rem;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -230px;
+      width: 200px;
+      height: 3px;
+      display: block;
+      background: linear-gradient(90deg, #0094D1 0%, rgba(0, 74, 145, 0.99) 100%);;
+      border-radius: 1px;
+
+      @media (width <= 537px) {
+        bottom: 0px;
+        left: 0%;
+        top: 120%;
+        width: 70%;
+      }
+    }
+  }
+
+  .container {
+    margin-top: 1.5rem;
+  }
+
+  .copyright {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #A6A6A6;
+    margin-top: 60px;
+    margin-bottom: -25px;
+
+    @media (width <= 537px) {
+      margin-bottom: 0rem;
+      font-size: 18px;
+    }
+  }
+}

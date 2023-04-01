@@ -1,0 +1,82 @@
+.popup_container {
+  padding: 1.5rem 2.5rem;
+  width: 60vw;
+  height: fit-content;
+  min-height: fit-content;
+  margin: 5rem 0;
+  min-width: 300px;
+  background-color: #1d1d1d;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 10px;
+  display: none;
+  opacity: 0;
+
+  @media ( width <= 1024px) {
+    width: 80vw;
+  }
+
+  @media (width <= 537px) {
+    width: 90vw;
+    margin: 4rem 0;
+    padding: 1rem;
+  }
+
+  &.opened {
+    display: block;
+    opacity: 1;
+    animation: open 0.4s linear;
+
+    @keyframes open {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+
+  &_header {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+
+    @media (width <= 537px) {
+      margin-bottom: 1rem;
+    }
+    
+    .box {
+      display: flex;
+      justify-content: space-between;
+
+      .title {
+        font-size: 26px;
+        font-weight: 700;
+      }
+
+      .icon {
+        color: #fff;
+        cursor: pointer;
+        transition: 0.3s all ease-in-out;
+
+        &:hover {
+          color: #008CCA;
+        }
+      }
+    }
+  }
+  
+  &_content {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  &_footer {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+  }
+}

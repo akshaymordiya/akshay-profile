@@ -1,0 +1,275 @@
+{
+  "sidebar": {
+    "name": "Akshay Moradiya",
+    "tag": "Software Engineer",
+    "links": [
+      {
+        "key": "linkedin",
+        "href": "https://www.linkedin.com/in/akshaymoradiya/"
+      },
+      {
+        "key": "github",
+        "href": "https://github.com/akshaymordiya"
+      },
+      {
+        "key": "instagram",
+        "href": "https://www.instagram.com/akshay.js_/"
+      },
+      {
+        "key": "facebook",
+        "href": "https://www.facebook.com/axay.mordiya.5"
+      }
+    ],
+    "contact": {
+      "phone": {
+        "title": "Phone",
+        "value": "+916355045445",
+        "isLink": true,
+        "hrefPrefix": "tel"
+      },
+      "email": {
+        "title": "Email",
+        "value": "helloakmoradiya@gmail.com",
+        "isLink": true,
+        "hrefPrefix": "mailto"
+      },
+      "location": {
+        "title": "Location",
+        "value": "Gujarat, India",
+        "isLink": false,
+        "hrefPrefix": ""
+      }
+    },
+    "download_url": "/resume.pdf"
+  },
+  "aboutMe": {
+    "paragraphs": {
+      "p1": "Akshay here, I'm results-driven and motivated web developer with around 2+ years of total experinence in improving performance, testing and updating existing web apps and developing new feature functionalities in web applications.",
+      "p2": "I have a bachelor's degree in computer science and coding experiencein JavaScript from well-known companies. I'm able to effectively self-manage during independent projects, as well as collaborate as part of a productive team."
+    },
+    "service_boxes": [
+      {
+        "color": "light_purple",
+        "key": "web-app",
+        "title": "Web Application Development",
+        "excert": "Web application development is the process of creating web-based software applications that can be accessed through a web browser. It involves the use of various programming languages, frameworks, and tools to create dynamic, interactive, and scalable web applications."
+      },
+      {
+        "color": "dark_purple",
+        "key": "website",
+        "title": "Website Development",
+        "excert": "Web development is the creation of dynamic and interactive websites using coding languages, frameworks, and technologies. It involves front-end and back-end development, as well as user behavior, design, and optimization for search engines."
+      },
+      {
+        "color": "yellow",
+        "key": "ui-ux",
+        "title": "UI/UX Design",
+        "excert": "UI/UX design is the process of creating user interfaces and experiences for digital products. It involves designing the look and feel, as well as the user flow and functionality, of websites, applications, and other digital platforms."
+      },
+      {
+        "color": "light_red",
+        "key": "rest-api",
+        "title": "REST API Development",
+        "excert": "REST API development is the process of designing and building APIs (Application Programming Interfaces) based on the REST architecture. It involves defining endpoints, HTTP methods, and data formats to allow communication between different software systems and devices."
+      }
+    ],
+    "counts": [
+      {
+        "count": "15+",
+        "words": "Projects are Completed"
+      },
+      {
+        "count": "50+",
+        "words": "Meeting Signup"
+      },
+      {
+        "count": "3+",
+        "words": "Years Of Experience"
+      }
+    ]
+  },
+  "resume": {
+    "educations": [
+      {
+        "key": "collage",
+        "timeline": "2017 - 2021",
+        "title": "B.E in computer science",
+        "excert": "Gujarat Technological University"
+      },
+      {
+        "key": "school",
+        "timeline": "2015 - 2017",
+        "title": "HSC 12th science",
+        "excert": "L.P savani school"
+      }
+    ],
+    "experinence" : [
+      {
+        "key": "upforce",
+        "timeline": "Sept 2021 - Present",
+        "title": "React JS developer",
+        "excert": "Upforce Tech"
+      },
+      {
+        "key": "trinity",
+        "timeline": "Aug 2020 - Aug 2021",
+        "title": "Full stack web developer",
+        "excert": "Trinity Infosystem"
+      }
+    ],
+    "progress": [
+      {
+        "title":"Javascript", 
+        "percentage":"95",
+        "color":"#FF6464"
+      },
+      {
+        "title":"React JS", 
+        "percentage":"95",
+        "color":"#9272D4"
+      },
+      {
+        "title":"Redux / React-router", 
+        "percentage":"92",
+        "color":"#5185D4"
+      },
+      {
+        "title":"Vue Js / Vuex / Vue-router", 
+        "percentage":"85",
+        "color":"#CA56F2"
+      },
+      {
+        "title":"Typescript", 
+        "percentage":"88",
+        "color":"#FF6464"
+      },
+      {
+        "title":"MERN stack Development", 
+        "percentage":"90",
+        "color":"#9272D4"
+      },
+      {
+        "title":"HTML / CSS", 
+        "percentage":"80",
+        "color":"#5185D4"
+      }
+    ],
+    "competencies": [
+      "JavaScript", 
+      "TypeScript",
+      "React JS",
+      "React-Router",
+      "Redux",
+      "Redux Saga",
+      "Redux Thunk",
+      "Redux toolkit",
+      "Socket.io.",
+      "NextJS",
+      "Vue Js",
+      "Vuex",
+      "Vue-router",
+      "MUI",
+       "Ant D.",
+      "JQuery",
+      "HTML5",
+      "CSS3", 
+      "SCSS",
+      "MERN stack"
+    ],
+    "languages": ["English (Fluent)", "Hindi (Fluent)"],
+    "technical_profile": [
+      "Git",
+      "Git Hub",
+      "Bitbucket",
+      "Git Lab",
+      "Jira",
+      "Asana",
+      "Jetbrain IDEs",
+      "Figma",
+      "SonarsLint"
+    ]
+  },
+  "portfolios": [
+    {
+      "key": "tm-app",
+      "title": "Table Management App",
+      "excert": "TM app is multiple restaurant management app for multiple cruise line companies.",
+      "image": "thumb-01.jpg",
+      "thumbnail": "thumb-01.jpg",
+      "gallary": [],
+      "content": "Introducing this advanced table management app, designed for multiple restaurants on a big cruise ship. Our app simplifies the process of managing tables by allowing users to create mandatory settings for ongoing or upcoming voyages. With the ability to create preset settings, users can save time and reduce the effort required to set up the system for each voyage. The app provides a layout overview of each restaurant, indicating which tables are filled, the priority guests seated at each table, and the number of guests seated. Our app also includes a range of other powerful features to streamline the table management process and improve the dining experience for guests on board. "
+    },
+    {
+      "key": "scrapper",
+      "title": "Scrapping Tool",
+      "excert": "This tool is invanted to scrap some basic info of the any website by URL",
+      "image": "thumb-02.jpg",
+      "thumbnail": "thumb-02.jpg",
+      "gallary": [
+        "work/scrapper/01.png",
+        "work/scrapper/02.png",
+        "work/scrapper/03.png",
+        "work/scrapper/04.png",
+        "work/scrapper/05.png",
+        "work/scrapper/06.png",
+        "work/scrapper/07.png"
+      ],
+      "content": "A basic web information scraper tool is a simple software program that is designed to extract some basic data from websites. This tool allows users to scrape basic information such as text, images, and links from a website. The tool typically works by analyzing the HTML code of a webpage and identifying the specific elements that contain the information the user wants to extract. The tool then extracts this information and saves it in a structured format, such as a CSV or Excel file."
+    },
+    {
+      "key": "kinet-connect",
+      "title": "Kinet Connect",
+      "excert": "A web app designed for real-time communication among multiple users in a specific context, such as a community, group, or team.",
+      "image": "thumb-03.jpg",
+      "thumbnail": "thumb-03.jpg",
+      "gallary": [
+        "work/kc/01.png",
+        "work/kc/02.png",
+        "work/kc/03.png",
+        "work/kc/04.png",
+        "work/kc/05.png",
+        "work/kc/06.png",
+        "work/kc/07.png",
+        "work/kc/08.png",
+        "work/kc/09.png",
+        "work/kc/10.png",
+        "work/kc/11.png"
+      ],
+      "content": "Introducing this cutting-edge web app that enables users to create and join communication rooms, with the ability to invite collaborators as speakers and allow others to join as listeners. With both public and private room options, users can connect with people from around the world and engage in meaningful discussions on a variety of topics. Our app is designed to be user-friendly, with easy search and join options for public rooms, and secure access for private rooms. Join the conversation today and start collaborating with like-minded individuals in a powerful new way!"
+    },
+    {
+      "key": "comic-book",
+      "title": "Comic Store",
+      "excert": "Discover your next favorite comic with our online store, featuring a huge selection of titles from your favorite publishers.",
+      "image": "thumb-04.png",
+      "thumbnail": "thumb-04.png",
+      "gallary": [
+        "work/uc/01.png",
+        "work/uc/02.png",
+        "work/uc/03.png",
+        "work/uc/04.png",
+        "work/uc/05.png",
+        "work/uc/06.png"
+      ],
+      "content": "Introducing the state-of-the-art comic store website, designed for comic book enthusiasts who love to read their favorite titles online. This website offers an extensive collection of comic books from different genres, with a special feature that allows users to preview a few pages of premium titles before subscribing. To access the full premium book, users can easily purchase a subscription. This website also features a powerful search tool that helps users find their favorite comic books quickly and efficiently. Additionally, this website provides a convenient feature that enables users to continue reading books directly from where they left off when they return to the site."
+    },
+    {
+      "key": "pos",
+      "title": "Pos App",
+      "excert": "A private pos app made for managing sales, inventory, and customer data of multiple outlet of vendor.",
+      "image": "thumb-05.jpg",
+      "thumbnail": "thumb-05.jpg",
+      "gallary": "",
+      "content": ""
+    },
+    {
+      "key": "custimonial",
+      "title": "Custimonial App",
+      "excert": "With this comprehensive custimonial app, you can gather, organize, and display customer feedback in one central location.",
+      "image": "thumb-06.jpg",
+      "thumbnail": "thumb-06.jpg",
+      "gallary": "",
+      "content": ""
+    }
+  ]
+}
