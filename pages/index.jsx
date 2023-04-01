@@ -2,8 +2,8 @@ import React, { useMemo } from 'react';
 import styles from '@/styles/Home.module.scss';
 //components
 import Head from 'next/head';
-import Fade from "@/component/Fade";
-import PageTitle from "@/component/PageTitle";
+import Fade from "@/component/Fade/index.jsx";
+import PageTitle from "@/component/PageTitle/index.jsx";
 //icons
 import GridViewIcon from '@mui/icons-material/GridView';
 import DashboardIcon from '@mui/icons-material/Dashboard';
