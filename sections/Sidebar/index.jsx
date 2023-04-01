@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 //components
-import ContactPanel from "@/component/ContactPanel";
-import Button from "@/component/Button";
-import Avatar from "@/component/Avatar";
-import Social from "@/component/Social"
+import ContactPanel from "@/components/ContactPanel";
+import Button from "@/components/Button";
+import Avatar from "@/components/Avatar";
+import Social from "@/components/Social"
 //icons
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import styles from "./Sidebar.module.scss";

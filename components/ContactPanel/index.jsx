@@ -1,6 +1,6 @@
 import React from 'react';
 //components
-import ContactInfo from "@/component/Card/ContactInfo";
+import ContactInfo from "@/components/Card/ContactInfo";
 //icons
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';

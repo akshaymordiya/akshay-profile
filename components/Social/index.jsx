@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 //components
-import GrayBox from "@/component/GrayBox";
+import GrayBox from "@/components/GrayBox";
 //icons
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import InstagramIcon from '@mui/icons-material/Instagram';

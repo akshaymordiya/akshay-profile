@@ -1,5 +1,5 @@
 import React from 'react'
-import Portal from '@/component/Portal';
+import Portal from '@/components/Portal';
 import styles from "./Popup.module.scss";
 //icon
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';

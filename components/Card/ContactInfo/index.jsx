@@ -1,5 +1,5 @@
 import React from 'react'
-import GrayBox from '@/component/GrayBox'
+import GrayBox from '@/components/GrayBox'
 import styles from "./ContactInfo.module.scss"
 
 const ContactInfo = ({

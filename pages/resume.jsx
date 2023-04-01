@@ -1,10 +1,10 @@
 import React from 'react';
 //components
 import Head from 'next/head';
-import Fade from "@/component/Fade";
-import PageTitle from "@/component/PageTitle";
-import Progress from "@/component/Progress";
-import GrayBox from '@/component/GrayBox';
+import Fade from "@/components/Fade";
+import PageTitle from "@/components/PageTitle";
+import Progress from "@/components/Progress";
+import GrayBox from '@/components/GrayBox';
 
 //icons
 import SchoolIcon from '@mui/icons-material/School';

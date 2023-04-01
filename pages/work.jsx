@@ -2,14 +2,14 @@ import React, { useMemo, useState } from 'react'
 import Image from 'next/image';
 //components
 import Head from 'next/head';
-import Fade from "@/component/Fade";
-import PageTitle from "@/component/PageTitle";
+import Fade from "@/components/Fade";
+import PageTitle from "@/components/PageTitle";
+import Popup from '@/components/Popup';
+import Button from '@/components/Button';
 //image
 import styles from "@/styles/Work.module.scss";
 //data
 import data from "@/data";
-import Popup from '@/component/Popup';
-import Button from '@/component/Button';
 
 const defaultModalState ={
   isOpen: false,

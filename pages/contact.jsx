@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 //components
 import Head from 'next/head';
-import Fade from "@/component/Fade/index.jsx";
-import PageTitle from "@/component/PageTitle/index.jsx";
-import Input from '@/component/Input/index.jsx';
-import Button from '@/component/Button/index.jsx';
+import Fade from "@/components/Fade/index.jsx";
+import PageTitle from "@/components/PageTitle/index.jsx";
+import Input from '@/components/Input/index.jsx';
+import Button from '@/components/Button/index.jsx';
 //icons
 import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
 import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router';
 //components
-import GrayBox from "@/component/GrayBox";
+import GrayBox from "@/components/GrayBox";
 //icon
 import PersonIcon from '@mui/icons-material/Person';
 import ArticleIcon from '@mui/icons-material/Article';
